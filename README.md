@@ -356,7 +356,7 @@ Theta has the largest discrepancy, as expected from its first-order difference.
 *Twenty of the 20,000 simulated paths (seed 42, 252 steps). Red paths touched the barrier at 90*
 *on at least one monitoring date and would be knocked out.* 
 
-Blue paths stayed above it. Across all 20,000 paths, 51.8% touched the barrier, in line with the discrete-monitoring theory value of 52.5%, within about two standard errors. The theory value comes from the continuous first-passage probability:
+Blue paths stayed above it. Across all 20,000 paths, 51.8% touched the barrier, in line with the discrete-monitoring theory value of 52.5%, within about two standard errors. Ran again across 500,000 paths, 52.4% touched the barrier, within about one standard error of the theoretical value. The theory value comes from the continuous first-passage probability:
 
 ```
 P(price touches H before T) =
